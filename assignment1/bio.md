@@ -12,4 +12,9 @@ Programming Background:
 
 	Most of my programming background comes from ECE classes at Oregon State. My favorite project was working with different cryptographic algorithms in a class with Kevin McGrath. CS 311 taught me more about programming than any of the classes before it and really showed me what I was missing.
 
-
+	Languages, Descending by Familiarity:
+		Python
+		C
+		Java
+		HTML
+		Assembly
