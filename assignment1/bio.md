@@ -8,4 +8,4 @@ General Background:
 	Outside of school, I ride horses, run, and keep up practice in 5 different languages. My horse’s name is Jer’Czey. She is a 6 year old Belgian Warmblood. 
 
 
-
+Programming Background:
