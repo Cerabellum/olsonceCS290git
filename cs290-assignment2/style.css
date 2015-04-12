@@ -1,0 +1,77 @@
+
+body{
+	background: #FFFFFF;
+}
+
+table, th, tr, td {
+        border: 2px solid black;
+}
+
+dt:hover ~ dd{
+    background-color: purple;
+}
+
+form{
+    border: 2px, solid black;
+}
+
+.red {
+    float: left;
+    background-color: red;
+    height: 100px;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.orange {
+    float: left;
+    background-color: orange;
+    height: 100px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.yellow {
+    float: left;
+    background-color: yellow;
+    height: 200px;
+    width: 50px;
+    margin-top: 75px;
+    margin-left: 100px;	
+}
+
+.green {
+    float: left;
+    background-color: green;
+    height: 200px;
+    width: 150px;
+    margin-top: 75px;
+    margin-left: 20px;
+}
+
+.blue {
+    float: right;
+    background-color: blue;
+    height: 200px;
+    width: 50px;
+    margin-top: 320px;
+    margin-right: 20px;
+}
+
+.indigo {
+    float: right;
+    background-color: indigo;
+    height: 200px;
+    width: 150px;
+    margin-top: 320px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
