@@ -41,7 +41,7 @@ form{
 .outer-content {
     float: left;
     background-color: pink;
-    height: 50px;
+    height: 100px;
     width: 75%;
     margin-top: 20px;
 
@@ -53,7 +53,7 @@ form{
     height: 50px;
     width: 75%;
     margin: auto;
-    margin
+    margin-top: 25px;
 }
 
 
