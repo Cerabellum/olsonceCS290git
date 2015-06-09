@@ -1,0 +1,30 @@
+
+
+#header{
+    float: right;
+    font-size: 20px;
+}
+
+#container{
+    font-size: 14px;
+    float: right;
+    width: 80%
+    height: auto;
+}
+
+#contents{
+	background-color: #ADD8E6;
+	float: left;
+    height: auto;
+    width: 15%;
+    font-size: 12px;
+}
+
+#title{
+    
+}
+
+#author{
+    
+}
+

@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>How-To Guide for CryptoJS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="index.php">Home</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">Welcome to a How-To for using Steam's Web API</h1>
+        <p class="lead blog-description">by Andrew Rice</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">About this Guide</h2>
+            <p class="blog-post-meta">or "How to use the How-To"</p>
+
+            <p>Welcome to my How-To guide for Steam's Web API.</p>
+            <p>Steam's Web API is a way to access data about steam users. Examples of the data you can access are things like
+            	lists of owned games, achievements, profile information, etc. This is all done through either JSON or XML objects returned from
+            	various queries. This guide's aim is to take a tour of all the different information you can access and various
+            	examples of what you can do with it.</p>
+            <p>Code examples will mostly use PHP. The more important part is seeing what kind of information
+            	you have to send to receive what you need in return, however, and thus it is important to keep in mind you are not limited
+            	to using these languages. As such, we will be using the simplest of the simple: PHP's <code>file_get_contents()</code> function to return a JSON object.
+            	Typically, you won't want to do this since it will freeze the rest of the page load while it gets the return from the API, but it serves our purposes here.</p>
+            	<p>We'll discuss the following JSON calls:</p>
+            	<ul>
+            		<li><code>GetNewsForApp</code></li>
+            		<li><code>GetPlayerSummaries</code></li>
+            		<li><code>GetFriendList</code></li>
+            		<li><code>GetPlayerAchievements</code></li>
+            		<li><code>GetUserStatsForGame</code></li>
+            		<li><code>GetOwnedGames</code></li>
+            		<li><code>GetRecentlyPlayedGames</code></li>
+            	</ul>	
+            	<p>We'll leave out <code>GetSchemaForGame</code>, <code>IsPlayingSharedGame</code>, <code>GetGlobalStatsForGame</code>, <code>GetGlobalAchievementsPercentagesForApp</code>.
+            		This is primarily because the information returned isn't particularly interesting or useful. If you happen to be interested, you can find
+            		those call syntaxes <a href="https://developer.valvesoftware.com/wiki/Steam_Web_API">here</a>.</p>
+            	<p>Click the button below to get started!</p>
+            
+          </div><!-- /.blog-post -->
+
+          <nav>
+            <ul class="pager">
+              <li><a href="1.php">On To The Guide</a></li>
+            </ul>
+          </nav>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          
+          <div class="sidebar-module">
+            <h4>Jump to Section</h4>
+            <ol class="list-unstyled">
+              <li><a href="1.php">Section 1 - Set Up</a></li>
+              <li><a href="2.php">Section 2 - Forget OpenID</a></li>
+              <li><a href="3.php">Section 3 - Getting User Info</a></li>
+              <li><a href="4.php">Section 4 - Showcase your Games</a></li>
+              <li><a href="5.php">Section 5 - Finding Our User's Skill</a></li>
+              <li><a href="6.php">Section 6 - Getting Game News</a></li>
+              <li><a href="7.php">Section 7 - References</a></li>
+            </ol>
+          </div>
+          
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+
+  </body>
+</html>
+
