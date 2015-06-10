@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8" />
+    <script src = "pullGists.js"></script>
+    <title>Gists</title>
+</head>
+	<body>
+    		<form>
+        	    	<legend><h3>Gist Languages</h3></legend>
+            		
+                    <label>Python</label>
+            		<input name = "language" value = "Python" type = "checkbox" />
+            		<br>
+                    <label>JSON</label>
+            		<input name = "language" value = "JSON" type = "checkbox" />
+            		<br>
+                    <label>JavaScript</label>
+            		<input name = "language" value = "JavaScript" type = "checkbox" />
+                    <br>
+                    <label>SQL</label>
+            		<input name = "language" value = "SQL" type = "checkbox" />
+                    <br>
+                    <label for = "numPages">Select Number of Pages to Import</label>
+            		<select name = "numPages">
+                		<option value = "1">1</option>
+                		<option value = "2">2</option>
+                		<option value = "3">3</option>
+                		<option value = "4">4</option>
+                        <option value = "5">5</option>
+            		</select>
+            		<br>
+			<button type = "button" onclick = "pullGists()">Show Gists</button>
+    		</form>
+            
+            <h3> Resulting Gists </h3>
+    		<ul id = "results"></ul>
+            
+            <h3> Favorite Gists </h3>
+            <div id = "favorites"></div>
+	</body>
+</html>
