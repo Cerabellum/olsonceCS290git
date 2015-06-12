@@ -6,4 +6,9 @@ Start: Thurs 11 June 2015 2300 EST
 End: Thurs 11 June 2015 2330 EST
 Tasks: Began programming loopback.php
 
+Start: Thurs 11 June 2015 2340 EST
+End: Fri 12 June 2015  EST
+Tasks: Began programming login.php, content1.php, content2.php
+Reference: http://www.formget.com/login-form-in-php/
+
 
