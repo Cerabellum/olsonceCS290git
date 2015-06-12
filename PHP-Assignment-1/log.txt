@@ -1,0 +1,3 @@
+Start: Thurs 11 June 2015 2100
+End: 
+Tasks: Created files, reviewed assignment, began programming - starting with multtable.php
