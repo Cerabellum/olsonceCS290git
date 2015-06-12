@@ -1,3 +1,9 @@
-Start: Thurs 11 June 2015 2100
-End: 
+Start: Thurs 11 June 2015 2100 EST
+End: Thurs 11 June 2015 2251 EST
 Tasks: Created files, reviewed assignment, began programming - starting with multtable.php
+
+Start: Thurs 11 June 2015 2300 EST
+End: Thurs 11 June 2015 2330 EST
+Tasks: Began programming loopback.php
+
+
